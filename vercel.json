@@ -3,11 +3,13 @@
   "services": {
     "api": {
       "root": "apps/api",
-      "framework": "nestjs"
+      "framework": "nestjs",
+      "installCommand": "npm install"
     },
     "web": {
       "root": "apps/web",
       "framework": "nextjs",
+      "installCommand": "npm install",
       "bindings": [
         {
           "type": "service",
